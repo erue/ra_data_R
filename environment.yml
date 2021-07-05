@@ -1,8 +1,9 @@
+channel_priority: strict
 channels:
   - conda-forge
 dependencies:
+  - numpy
+  - pandas
+  - mecab
   - r-base=3.6
   - r-tidyverse
-  - r-dygraphs
-  - r-purrr
-  - r-arm
